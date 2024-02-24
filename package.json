@@ -1,0 +1,18 @@
+{
+  "name": "nonosolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/start.js",
+  "scripts": {
+    "start": "npm run tsc && node app/start.js",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.2.0",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.3.3"
+  }
+}
